@@ -1,9 +1,5 @@
 import common._
 import patmat._
 
-var A = List('a','b','a')
-
-
-
-
+var A = ('a','b,'c','d','a')
 
