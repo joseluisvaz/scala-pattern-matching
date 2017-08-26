@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a68e234-37a7-4ccc-8218-c2f60cc27b98" name="Default" comment="testing scala worksheet added,&#10;&#10;def times: function implemented">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/testing.sc" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/totry.sc" afterPath="" />
+    <list default="true" id="4a68e234-37a7-4ccc-8218-c2f60cc27b98" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/patmat/Huffman$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/patmat/Huffman$.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/patmat/Huffman.scala" afterPath="$PROJECT_DIR$/src/main/scala/patmat/Huffman.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -280,6 +277,14 @@
       <option name="presentableId" value="Default" />
       <updated>1503781299236</updated>
     </task>
+    <task id="LOCAL-00001" summary="testing scala worksheet added,&#10;&#10;def times: function implemented">
+      <created>1503785549981</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1503785549981</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
