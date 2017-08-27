@@ -162,7 +162,8 @@ object Huffman {
    *    the example invocation. Also define the return type of the `until` function.
    *  - try to find sensible parameter names for `xxx`, `yyy` and `zzz`.
    */
-  def until(sig: List[CodeTree]=>Boolean , comb: List[CodeTree]=>List[CodeTree])(trees: List[CodeTree]): List[CodeTree] = {
+  def until(sig: List[CodeTree]=>Boolean, comb: List[CodeTree]=>List[CodeTree])
+           (trees: List[CodeTree]): List[CodeTree] = {
       if (sig(trees)) trees  //returns when we only have one object
       else until(sig, comb)(comb(trees))  //combines the elements till we only have one master node
   }
@@ -173,7 +174,8 @@ object Huffman {
    * The parameter `chars` is an arbitrary text. This function extracts the character
    * frequencies from that text and creates a code tree based on them.
    */
-  def createCodeTree(chars: List[Char]): CodeTree = until(singleton, combine)(makeOrderedLeafList(times(chars))).head
+  def createCodeTree(chars: List[Char]): CodeTree =
+    until(singleton, combine)(makeOrderedLeafList(times(chars))).head
 
 
   // Part 3: Decoding
@@ -265,8 +267,7 @@ object Huffman {
    * use it in the `convert` method above, this merge method might also do some transformations
    * on the two parameter code tables.
    */
-  // TODO
-  def mergeCodeTables(a: CodeTable, b: CodeTable): CodeTable = ???
+  def mergeCodeTables(a: CodeTable, b: CodeTable): CodeTable = a:::b
   
   /**
    * This function encodes `text` according to the code tree `tree`.
@@ -274,6 +275,12 @@ object Huffman {
    * To speed up the encoding process, it first converts the code tree to a code table
    * and then uses it to perform the actual encoding.
    */
-  // TODO
-  def quickEncode(tree: CodeTree)(text: List[Char]): List[Bit] = ???
+  def quickEncode(tree: CodeTree)(text: List[Char]): List[Bit] = {
+    val table = convert(tree)
+    def quick(text: List[Char]): List[Bit] = {
+      if (text.isEmpty) List()
+      else codeBits(table)(text.head):::quick(text.tail)
+    }
+    quick(text)
   }
+}
