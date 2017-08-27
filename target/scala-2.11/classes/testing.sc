@@ -1,6 +1,6 @@
 import patmat._
 
-val A = List('a','b','c','a','b','b','c','b','c','d','z','k','e','e')
+val A = List('a','b','c','b','b','c','b','c','d','z','k','e','e')
 
 val B = Huffman.times(A)
 val leaf = Huffman.Leaf('c', 5)
@@ -10,12 +10,10 @@ val leaf4 = Huffman.Leaf('l', 9)
 val fork1 = Huffman.makeCodeTree(leaf, leaf2)
 val fork2 = Huffman.makeCodeTree(leaf3, leaf4)
 
-val listie = List(leaf, fork1, leaf3)
+fork2.chars.contains('b')
 
+Huffman.encode(Huffman.frenchCode)("holamiamigo".toList)
 
-val C = Huffman.makeOrderedLeafList(B)
-//val tree = Huffman.until(Huffman.singleton, Huffman.combine)(C)
+val todecode = List(0, 0, 1, 1, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 0, 0, 1, 1, 1, 0, 0, 1, 0, 0)
 
-List(fork1).head
-
-val K = Huffman.createCodeTree(A)
+Huffman.decode(Huffman.frenchCode, todecode)
