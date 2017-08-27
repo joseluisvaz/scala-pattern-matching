@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a68e234-37a7-4ccc-8218-c2f60cc27b98" name="Default" comment="refactoring times function usage">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/patmat/Huffman$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/patmat/Huffman$.class" />
+    <list default="true" id="4a68e234-37a7-4ccc-8218-c2f60cc27b98" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/patmat/Huffman.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/patmat/Huffman.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/patmat/Huffman.scala" afterPath="$PROJECT_DIR$/src/main/scala/patmat/Huffman.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/testing.sc" afterPath="$PROJECT_DIR$/src/main/scala/testing.sc" />
@@ -29,9 +29,28 @@
           <file leaf-file-name="Huffman.scala" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/scala/patmat/Huffman.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-182">
-                  <caret line="89" column="0" lean-forward="true" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-                  <folding />
+                <state relative-caret-position="952">
+                  <caret line="134" column="9" lean-forward="true" selection-start-line="134" selection-start-column="9" selection-end-line="134" selection-end-column="9" />
+                  <folding>
+                    <element signature="e#96#563#0" expanded="false" />
+                    <element signature="e#1098#1258#0" expanded="false" />
+                    <element signature="e#1336#2262#0" expanded="false" />
+                    <element signature="e#2584#2866#0" expanded="false" />
+                    <element signature="e#3120#3419#0" expanded="false" />
+                    <element signature="e#3838#3920#0" expanded="false" />
+                    <element signature="e#4011#4489#0" expanded="false" />
+                    <element signature="e#4564#5351#0" expanded="false" />
+                    <element signature="e#5420#5675#0" expanded="false" />
+                    <element signature="e#5789#5927#0" expanded="false" />
+                    <element signature="e#6007#6201#0" expanded="false" />
+                    <element signature="e#7700#7837#0" expanded="false" />
+                    <element signature="e#7999#8062#0" expanded="false" />
+                    <element signature="e#8160#8260#0" expanded="false" />
+                    <element signature="e#8425#8547#0" expanded="false" />
+                    <element signature="e#8625#9050#0" expanded="false" />
+                    <element signature="e#9113#9345#0" expanded="false" />
+                    <element signature="e#9428#9652#0" expanded="false" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -42,7 +61,7 @@
                 <state relative-caret-position="153">
                   <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
                   <folding>
-                    <marker date="1503796098572" expanded="true" signature="0:15" ph="..." />
+                    <marker date="1503797023801" expanded="true" signature="0:15" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -55,8 +74,8 @@
           <file leaf-file-name="testing.sc" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/scala/testing.sc">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="98">
-                  <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+                <state relative-caret-position="196">
+                  <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -85,8 +104,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/scala/totry.sc" />
-        <option value="$PROJECT_DIR$/src/main/scala/patmat/Huffman.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/testing.sc" />
+        <option value="$PROJECT_DIR$/src/main/scala/patmat/Huffman.scala" />
       </list>
     </option>
   </component>
@@ -178,6 +197,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.toDoOptions" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -332,7 +354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1503785567133</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="makeOrderedLeafList implemented&#10;&#10;new function added insertLeaf, this is a helper function for makeOrderedLeafList">
+      <created>1503796280761</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1503796280761</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -377,7 +406,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="testing scala worksheet added,&#10;&#10;def times: function implemented" />
     <MESSAGE value="refactoring times function usage" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring times function usage" />
+    <MESSAGE value="makeOrderedLeafList implemented&#10;&#10;new function added insertLeaf, this is a helper function for makeOrderedLeafList" />
+    <option name="LAST_COMMIT_MESSAGE" value="makeOrderedLeafList implemented&#10;&#10;new function added insertLeaf, this is a helper function for makeOrderedLeafList" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -388,7 +418,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#96#563#0" expanded="false" />
+            <element signature="e#1098#1258#0" expanded="false" />
+            <element signature="e#1336#2262#0" expanded="false" />
+            <element signature="e#2584#2866#0" expanded="false" />
+            <element signature="e#3120#3419#0" expanded="false" />
+            <element signature="e#3838#3920#0" expanded="false" />
+            <element signature="e#4011#4489#0" expanded="false" />
+            <element signature="e#4564#5351#0" expanded="false" />
+            <element signature="e#5420#5675#0" expanded="false" />
+            <element signature="e#5789#5927#0" expanded="false" />
+            <element signature="e#6007#6201#0" expanded="false" />
+            <element signature="e#7700#7837#0" expanded="false" />
+            <element signature="e#7999#8062#0" expanded="false" />
+            <element signature="e#8160#8260#0" expanded="false" />
+            <element signature="e#8425#8547#0" expanded="false" />
+            <element signature="e#8625#9050#0" expanded="false" />
+            <element signature="e#9113#9345#0" expanded="false" />
+            <element signature="e#9428#9652#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -396,7 +445,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding />
+          <folding>
+            <marker date="1503797023801" expanded="true" signature="0:15" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -404,7 +455,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#96#563#0" expanded="false" />
+            <element signature="e#1098#1258#0" expanded="false" />
+            <element signature="e#1336#2262#0" expanded="false" />
+            <element signature="e#2584#2866#0" expanded="false" />
+            <element signature="e#3120#3419#0" expanded="false" />
+            <element signature="e#3838#3920#0" expanded="false" />
+            <element signature="e#4011#4489#0" expanded="false" />
+            <element signature="e#4564#5351#0" expanded="false" />
+            <element signature="e#5420#5675#0" expanded="false" />
+            <element signature="e#5789#5927#0" expanded="false" />
+            <element signature="e#6007#6201#0" expanded="false" />
+            <element signature="e#7700#7837#0" expanded="false" />
+            <element signature="e#7999#8062#0" expanded="false" />
+            <element signature="e#8160#8260#0" expanded="false" />
+            <element signature="e#8425#8547#0" expanded="false" />
+            <element signature="e#8625#9050#0" expanded="false" />
+            <element signature="e#9113#9345#0" expanded="false" />
+            <element signature="e#9428#9652#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -412,33 +482,129 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1503797023801" expanded="true" signature="0:15" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/totry.sc" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/patmat/Huffman.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/testing.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-182">
-          <caret line="89" column="0" lean-forward="true" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <marker date="1503797023801" expanded="true" signature="0:15" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/testing.sc">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/patmat/Huffman.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding />
+        <state relative-caret-position="952">
+          <caret line="134" column="9" lean-forward="true" selection-start-line="134" selection-start-column="9" selection-end-line="134" selection-end-column="9" />
+          <folding>
+            <element signature="e#96#563#0" expanded="false" />
+            <element signature="e#1098#1258#0" expanded="false" />
+            <element signature="e#1336#2262#0" expanded="false" />
+            <element signature="e#2584#2866#0" expanded="false" />
+            <element signature="e#3120#3419#0" expanded="false" />
+            <element signature="e#3838#3920#0" expanded="false" />
+            <element signature="e#4011#4489#0" expanded="false" />
+            <element signature="e#4564#5351#0" expanded="false" />
+            <element signature="e#5420#5675#0" expanded="false" />
+            <element signature="e#5789#5927#0" expanded="false" />
+            <element signature="e#6007#6201#0" expanded="false" />
+            <element signature="e#7700#7837#0" expanded="false" />
+            <element signature="e#7999#8062#0" expanded="false" />
+            <element signature="e#8160#8260#0" expanded="false" />
+            <element signature="e#8425#8547#0" expanded="false" />
+            <element signature="e#8625#9050#0" expanded="false" />
+            <element signature="e#9113#9345#0" expanded="false" />
+            <element signature="e#9428#9652#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.12.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>root</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>SBT: junit:junit:4.10:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

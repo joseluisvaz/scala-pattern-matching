@@ -11,6 +11,6 @@ val C = Huffman.makeOrderedLeafList(B)
 val D = List()
 Huffman.insertLeaf(leaf, C, List())
 
-
+C.length
 
 
