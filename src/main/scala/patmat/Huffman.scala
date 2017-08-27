@@ -162,8 +162,11 @@ object Huffman {
    *    the example invocation. Also define the return type of the `until` function.
    *  - try to find sensible parameter names for `xxx`, `yyy` and `zzz`.
    */
-  // TODO
-  def until(xxx: ???, yyy: ???)(zzz: ???): ??? = ???
+  
+  def until(sig: List[CodeTree]=>Boolean, comb: List[CodeTree]=>List[CodeTree])(trees: List[CodeTree]): List[CodeTree] = {
+      if (sig(trees)) trees  //returns when we only have one object
+      else until(sig, comb)(comb(trees))  //combines the elements till we only have one master node
+  }
   
   /**
    * This function creates a code tree which is optimal to encode the text `chars`.
