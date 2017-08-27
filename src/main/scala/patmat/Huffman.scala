@@ -185,9 +185,17 @@ object Huffman {
    * This function decodes the bit sequence `bits` using the code tree `tree` and returns
    * the resulting list of characters.
    */
-  // TODO
-  def decode(tree: CodeTree, bits: List[Bit]): List[Char] = ???
-  
+  def decode(tree: CodeTree, bits: List[Bit]): List[Char] = {
+    def searchLeaf(rest: CodeTree, bits: List[Bit]): List[Char] = rest match {
+      case Fork(left, right,_,_) if bits.head == 0 => searchLeaf(left, bits.tail) //search to left
+      case Fork(left, right,_,_) =>  searchLeaf(right, bits.tail) //search to right
+      case Leaf(char,_) if bits.isEmpty => List(char) //reaches last leaf
+      case Leaf(char,_) => char::searchLeaf(tree, bits)  //reaches leaf and continues
+    }
+    searchLeaf(tree, bits)
+  }
+
+
   /**
    * A Huffman coding tree for the French language.
    * Generated from the data given at
