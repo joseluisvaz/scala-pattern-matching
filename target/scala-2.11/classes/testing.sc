@@ -1,6 +1,6 @@
 import patmat._
 
-val A = List('a','b','c','a','b','b','c','b')
+val A = List('a','b','c','a','b','b','c','b','c','d','z','k','e','e')
 
 val B = Huffman.times(A)
 val leaf = Huffman.Leaf('c', 5)
@@ -14,19 +14,8 @@ val listie = List(leaf, fork1, leaf3)
 
 
 val C = Huffman.makeOrderedLeafList(B)
-val nuevo = Huffman.combine(C)
+//val tree = Huffman.until(Huffman.singleton, Huffman.combine)(C)
 
+List(fork1).head
 
-
-B.sortWith((t1, t2) => t1._2 < t2._2)
-
-
-val D = List()
-Huffman.insertLeaf(leaf, C, List())
-
-Huffman.weight(leaf)
-
-val newfork = Huffman.makeCodeTree(leaf, leaf2)
-
-
-A.takeRight(4)
+val K = Huffman.createCodeTree(A)
