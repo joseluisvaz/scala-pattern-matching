@@ -28,7 +28,6 @@ object Huffman {
     case Fork(_,_,_,weight) => weight
     case Leaf(_,weight) => weight
   }
-  
   def chars(tree: CodeTree): List[Char] = tree match {
     case Fork(_,_,chars,_) => chars
     case Leaf(char,_) => List(char)
@@ -44,7 +43,6 @@ object Huffman {
    * In this assignment, we are working with lists of characters. This function allows
    * you to easily create a character list from a given string.
    */
-  // SCHONFERTIG
   def string2Chars(str: String): List[Char] = str.toList
 
   /**
@@ -75,7 +73,6 @@ object Huffman {
    *       println("integer is  : "+ theInt)
    *   }
    */
-  // SCHONFERTIG
   def times(chars: List[Char]): List[(Char, Int)] = {
     var result = List((chars.head, chars.count(s => s == chars.head)))
 
@@ -86,7 +83,7 @@ object Huffman {
     }
     result
   }
-  
+
   /**
    * Returns a list of `Leaf` nodes for a given frequency table `freqs`.
    *
@@ -94,8 +91,7 @@ object Huffman {
    * head of the list should have the smallest weight), where the weight
    * of a leaf is the frequency of the character.
    */
-  // SCHONFERTIG
-  def makeOrderedLeafList(freqs: List[(Char, Int)]): List[Leaf] = {
+  def makeOrderedLeafListTrial(freqs: List[(Char, Int)]): List[Leaf] = {
     var ordered_list: List[Leaf] = List()
     for (elem <- freqs) {
       ordered_list = insertLeaf(Leaf(elem._1, elem._2), ordered_list)
@@ -112,7 +108,6 @@ object Huffman {
     * @param acc   Accumulator for recursiveness
     * @return
     */
-  // SCHONFERTIG
   def insertLeaf(to_insert: Leaf, leafs: List[Leaf], acc: List[Leaf] = List()): List[Leaf] = {
     if (leafs == List()) (to_insert::acc.reverse).reverse  //bigger than everyone case
     else if (to_insert.weight <= leafs.head.weight) acc.reverse ::: (to_insert :: leafs) // return whole list
@@ -120,9 +115,17 @@ object Huffman {
   }
 
   /**
+    * More elegant method for making ordered lists
+    * @param freqs
+    * @return
+    */
+  def makeOrderedLeafList(freqs: List[(Char, Int)]): List[Leaf] = {
+    freqs.sortWith((f1, f2) => f1._2 < f2._2).map(elem => Leaf(elem._1, elem._2))
+  }
+
+  /**
    * Checks whether the list `trees` contains only one single code tree.
    */
-  // SCHONFERTIG
   def singleton(trees: List[CodeTree]): Boolean = trees.length == 1
   
   /**
@@ -137,8 +140,10 @@ object Huffman {
    * If `trees` is a list of less than two elements, that list should be returned
    * unchanged.
    */
-  // TODO
-  def combine(trees: List[CodeTree]): List[CodeTree] = ???
+  def combine(trees: List[CodeTree]): List[CodeTree] = trees match {
+    case a::b::tail => (makeCodeTree(a,b)::tail).sortWith((elem1, elem2) => weight(elem1) < weight(elem2))
+    case _ => trees
+  }
   
   /**
    * This function will be called in the following way:
