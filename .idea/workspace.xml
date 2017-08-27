@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a68e234-37a7-4ccc-8218-c2f60cc27b98" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/patmat/Huffman.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/patmat/Huffman.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/patmat/Huffman$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/patmat/Huffman$.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/patmat/Huffman.scala" afterPath="$PROJECT_DIR$/src/main/scala/patmat/Huffman.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/testing.sc" afterPath="$PROJECT_DIR$/src/main/scala/testing.sc" />
@@ -29,27 +29,27 @@
           <file leaf-file-name="Huffman.scala" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/scala/patmat/Huffman.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="952">
-                  <caret line="134" column="9" lean-forward="true" selection-start-line="134" selection-start-column="9" selection-end-line="134" selection-end-column="9" />
+                <state relative-caret-position="357">
+                  <caret line="30" column="2" lean-forward="false" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
                   <folding>
                     <element signature="e#96#563#0" expanded="false" />
-                    <element signature="e#1098#1258#0" expanded="false" />
-                    <element signature="e#1336#2262#0" expanded="false" />
-                    <element signature="e#2584#2866#0" expanded="false" />
-                    <element signature="e#3120#3419#0" expanded="false" />
-                    <element signature="e#3838#3920#0" expanded="false" />
-                    <element signature="e#4011#4489#0" expanded="false" />
-                    <element signature="e#4564#5351#0" expanded="false" />
-                    <element signature="e#5420#5675#0" expanded="false" />
-                    <element signature="e#5789#5927#0" expanded="false" />
-                    <element signature="e#6007#6201#0" expanded="false" />
-                    <element signature="e#7700#7837#0" expanded="false" />
-                    <element signature="e#7999#8062#0" expanded="false" />
-                    <element signature="e#8160#8260#0" expanded="false" />
-                    <element signature="e#8425#8547#0" expanded="false" />
-                    <element signature="e#8625#9050#0" expanded="false" />
-                    <element signature="e#9113#9345#0" expanded="false" />
-                    <element signature="e#9428#9652#0" expanded="false" />
+                    <element signature="e#1215#1375#0" expanded="false" />
+                    <element signature="e#1453#2379#0" expanded="false" />
+                    <element signature="e#2701#2983#0" expanded="false" />
+                    <element signature="e#3237#3536#0" expanded="false" />
+                    <element signature="e#3955#4037#0" expanded="false" />
+                    <element signature="e#4128#4606#0" expanded="false" />
+                    <element signature="e#4681#5468#0" expanded="false" />
+                    <element signature="e#5537#5792#0" expanded="false" />
+                    <element signature="e#5906#6044#0" expanded="false" />
+                    <element signature="e#6124#6318#0" expanded="false" />
+                    <element signature="e#7817#7954#0" expanded="false" />
+                    <element signature="e#8116#8179#0" expanded="false" />
+                    <element signature="e#8277#8377#0" expanded="false" />
+                    <element signature="e#8542#8664#0" expanded="false" />
+                    <element signature="e#8742#9167#0" expanded="false" />
+                    <element signature="e#9230#9462#0" expanded="false" />
+                    <element signature="e#9545#9769#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -59,9 +59,9 @@
             <entry file="file://$PROJECT_DIR$/src/main/scala/testing.sc">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="153">
-                  <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+                  <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
                   <folding>
-                    <marker date="1503797023801" expanded="true" signature="0:15" ph="..." />
+                    <marker date="1503848591499" expanded="true" signature="0:14" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -70,13 +70,15 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="testing.sc" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/scala/testing.sc">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="196">
-                  <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-                  <folding />
+                <state relative-caret-position="119">
+                  <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+                  <folding>
+                    <marker date="1503848591499" expanded="true" signature="0:14" ph="..." />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -131,9 +133,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -192,7 +191,10 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -361,11 +363,18 @@
       <option name="project" value="LOCAL" />
       <updated>1503796280761</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="check if singleton method">
+      <created>1503797790838</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1503797790838</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-4" width="1922" height="1030" extended-state="6" />
+    <frame x="346" y="21" width="1922" height="1040" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -383,8 +392,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296433" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296433" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -395,6 +403,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -407,7 +416,8 @@
     <MESSAGE value="testing scala worksheet added,&#10;&#10;def times: function implemented" />
     <MESSAGE value="refactoring times function usage" />
     <MESSAGE value="makeOrderedLeafList implemented&#10;&#10;new function added insertLeaf, this is a helper function for makeOrderedLeafList" />
-    <option name="LAST_COMMIT_MESSAGE" value="makeOrderedLeafList implemented&#10;&#10;new function added insertLeaf, this is a helper function for makeOrderedLeafList" />
+    <MESSAGE value="check if singleton method" />
+    <option name="LAST_COMMIT_MESSAGE" value="check if singleton method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -416,27 +426,64 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/scala/patmat/Huffman.scala">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="4" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+          <folding>
+            <element signature="e#96#563#0" expanded="false" />
+            <element signature="e#1215#1375#0" expanded="false" />
+            <element signature="e#1453#2379#0" expanded="false" />
+            <element signature="e#2701#2983#0" expanded="false" />
+            <element signature="e#3237#3536#0" expanded="false" />
+            <element signature="e#3955#4037#0" expanded="false" />
+            <element signature="e#4128#4606#0" expanded="false" />
+            <element signature="e#4681#5468#0" expanded="false" />
+            <element signature="e#5537#5792#0" expanded="false" />
+            <element signature="e#5906#6044#0" expanded="false" />
+            <element signature="e#6124#6318#0" expanded="false" />
+            <element signature="e#7817#7954#0" expanded="false" />
+            <element signature="e#8116#8179#0" expanded="false" />
+            <element signature="e#8277#8377#0" expanded="false" />
+            <element signature="e#8542#8664#0" expanded="false" />
+            <element signature="e#8742#9167#0" expanded="false" />
+            <element signature="e#9230#9462#0" expanded="false" />
+            <element signature="e#9545#9769#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/testing.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <marker date="1503848591499" expanded="true" signature="0:14" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/patmat/Huffman.scala">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#96#563#0" expanded="false" />
-            <element signature="e#1098#1258#0" expanded="false" />
-            <element signature="e#1336#2262#0" expanded="false" />
-            <element signature="e#2584#2866#0" expanded="false" />
-            <element signature="e#3120#3419#0" expanded="false" />
-            <element signature="e#3838#3920#0" expanded="false" />
-            <element signature="e#4011#4489#0" expanded="false" />
-            <element signature="e#4564#5351#0" expanded="false" />
-            <element signature="e#5420#5675#0" expanded="false" />
-            <element signature="e#5789#5927#0" expanded="false" />
-            <element signature="e#6007#6201#0" expanded="false" />
-            <element signature="e#7700#7837#0" expanded="false" />
-            <element signature="e#7999#8062#0" expanded="false" />
-            <element signature="e#8160#8260#0" expanded="false" />
-            <element signature="e#8425#8547#0" expanded="false" />
-            <element signature="e#8625#9050#0" expanded="false" />
-            <element signature="e#9113#9345#0" expanded="false" />
-            <element signature="e#9428#9652#0" expanded="false" />
+            <element signature="e#1215#1375#0" expanded="false" />
+            <element signature="e#1453#2379#0" expanded="false" />
+            <element signature="e#2701#2983#0" expanded="false" />
+            <element signature="e#3237#3536#0" expanded="false" />
+            <element signature="e#3955#4037#0" expanded="false" />
+            <element signature="e#4128#4606#0" expanded="false" />
+            <element signature="e#4681#5468#0" expanded="false" />
+            <element signature="e#5537#5792#0" expanded="false" />
+            <element signature="e#5906#6044#0" expanded="false" />
+            <element signature="e#6124#6318#0" expanded="false" />
+            <element signature="e#7817#7954#0" expanded="false" />
+            <element signature="e#8116#8179#0" expanded="false" />
+            <element signature="e#8277#8377#0" expanded="false" />
+            <element signature="e#8542#8664#0" expanded="false" />
+            <element signature="e#8742#9167#0" expanded="false" />
+            <element signature="e#9230#9462#0" expanded="false" />
+            <element signature="e#9545#9769#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -446,7 +493,7 @@
         <state relative-caret-position="153">
           <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
           <folding>
-            <marker date="1503797023801" expanded="true" signature="0:15" ph="..." />
+            <marker date="1503848591499" expanded="true" signature="0:14" ph="..." />
           </folding>
         </state>
       </provider>
@@ -457,23 +504,23 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#96#563#0" expanded="false" />
-            <element signature="e#1098#1258#0" expanded="false" />
-            <element signature="e#1336#2262#0" expanded="false" />
-            <element signature="e#2584#2866#0" expanded="false" />
-            <element signature="e#3120#3419#0" expanded="false" />
-            <element signature="e#3838#3920#0" expanded="false" />
-            <element signature="e#4011#4489#0" expanded="false" />
-            <element signature="e#4564#5351#0" expanded="false" />
-            <element signature="e#5420#5675#0" expanded="false" />
-            <element signature="e#5789#5927#0" expanded="false" />
-            <element signature="e#6007#6201#0" expanded="false" />
-            <element signature="e#7700#7837#0" expanded="false" />
-            <element signature="e#7999#8062#0" expanded="false" />
-            <element signature="e#8160#8260#0" expanded="false" />
-            <element signature="e#8425#8547#0" expanded="false" />
-            <element signature="e#8625#9050#0" expanded="false" />
-            <element signature="e#9113#9345#0" expanded="false" />
-            <element signature="e#9428#9652#0" expanded="false" />
+            <element signature="e#1215#1375#0" expanded="false" />
+            <element signature="e#1453#2379#0" expanded="false" />
+            <element signature="e#2701#2983#0" expanded="false" />
+            <element signature="e#3237#3536#0" expanded="false" />
+            <element signature="e#3955#4037#0" expanded="false" />
+            <element signature="e#4128#4606#0" expanded="false" />
+            <element signature="e#4681#5468#0" expanded="false" />
+            <element signature="e#5537#5792#0" expanded="false" />
+            <element signature="e#5906#6044#0" expanded="false" />
+            <element signature="e#6124#6318#0" expanded="false" />
+            <element signature="e#7817#7954#0" expanded="false" />
+            <element signature="e#8116#8179#0" expanded="false" />
+            <element signature="e#8277#8377#0" expanded="false" />
+            <element signature="e#8542#8664#0" expanded="false" />
+            <element signature="e#8742#9167#0" expanded="false" />
+            <element signature="e#9230#9462#0" expanded="false" />
+            <element signature="e#9545#9769#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -483,7 +530,7 @@
         <state relative-caret-position="85">
           <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
-            <marker date="1503797023801" expanded="true" signature="0:15" ph="..." />
+            <marker date="1503848591499" expanded="true" signature="0:14" ph="..." />
           </folding>
         </state>
       </provider>
@@ -492,36 +539,36 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/testing.sc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <marker date="1503797023801" expanded="true" signature="0:15" ph="..." />
+            <marker date="1503848591499" expanded="true" signature="0:14" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/patmat/Huffman.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="134" column="9" lean-forward="true" selection-start-line="134" selection-start-column="9" selection-end-line="134" selection-end-column="9" />
+        <state relative-caret-position="357">
+          <caret line="30" column="2" lean-forward="false" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
           <folding>
             <element signature="e#96#563#0" expanded="false" />
-            <element signature="e#1098#1258#0" expanded="false" />
-            <element signature="e#1336#2262#0" expanded="false" />
-            <element signature="e#2584#2866#0" expanded="false" />
-            <element signature="e#3120#3419#0" expanded="false" />
-            <element signature="e#3838#3920#0" expanded="false" />
-            <element signature="e#4011#4489#0" expanded="false" />
-            <element signature="e#4564#5351#0" expanded="false" />
-            <element signature="e#5420#5675#0" expanded="false" />
-            <element signature="e#5789#5927#0" expanded="false" />
-            <element signature="e#6007#6201#0" expanded="false" />
-            <element signature="e#7700#7837#0" expanded="false" />
-            <element signature="e#7999#8062#0" expanded="false" />
-            <element signature="e#8160#8260#0" expanded="false" />
-            <element signature="e#8425#8547#0" expanded="false" />
-            <element signature="e#8625#9050#0" expanded="false" />
-            <element signature="e#9113#9345#0" expanded="false" />
-            <element signature="e#9428#9652#0" expanded="false" />
+            <element signature="e#1215#1375#0" expanded="false" />
+            <element signature="e#1453#2379#0" expanded="false" />
+            <element signature="e#2701#2983#0" expanded="false" />
+            <element signature="e#3237#3536#0" expanded="false" />
+            <element signature="e#3955#4037#0" expanded="false" />
+            <element signature="e#4128#4606#0" expanded="false" />
+            <element signature="e#4681#5468#0" expanded="false" />
+            <element signature="e#5537#5792#0" expanded="false" />
+            <element signature="e#5906#6044#0" expanded="false" />
+            <element signature="e#6124#6318#0" expanded="false" />
+            <element signature="e#7817#7954#0" expanded="false" />
+            <element signature="e#8116#8179#0" expanded="false" />
+            <element signature="e#8277#8377#0" expanded="false" />
+            <element signature="e#8542#8664#0" expanded="false" />
+            <element signature="e#8742#9167#0" expanded="false" />
+            <element signature="e#9230#9462#0" expanded="false" />
+            <element signature="e#9545#9769#0" expanded="false" />
           </folding>
         </state>
       </provider>
