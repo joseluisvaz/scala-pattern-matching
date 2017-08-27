@@ -32,7 +32,6 @@ object Huffman {
     Fork(left, right, chars(left) ::: chars(right), weight(left) + weight(right))
 
 
-
   // Part 2: Generating Huffman trees
 
   /**
@@ -89,8 +88,30 @@ object Huffman {
    * head of the list should have the smallest weight), where the weight
    * of a leaf is the frequency of the character.
    */
-    def makeOrderedLeafList(freqs: List[(Char, Int)]): List[Leaf] = ???
-  
+
+    def makeOrderedLeafList(freqs: List[(Char, Int)]): List[Leaf] = {
+      var ordered_list: List[Leaf] = List()
+      for (elem <- freqs) {
+        ordered_list = insertLeaf(Leaf(elem._1, elem._2), ordered_list)
+      }
+      ordered_list
+    }
+
+  /**
+    * This is a new funciton outside of the instructions of this exercise, it inserts the leafs
+    * where they belong, according to the last exercise
+    *
+    * @param to_insert: Leaf   Element to insert
+    * @param leafs
+    * @param acc   Accumulator for recursiveness
+    * @return
+    */
+    def insertLeaf(to_insert: Leaf, leafs: List[Leaf], acc: List[Leaf] = List()): List[Leaf] = {
+      if (leafs == List()) (to_insert::acc.reverse).reverse  //bigger than everyone case
+      else if (to_insert.weight <= leafs.head.weight) acc.reverse ::: (to_insert :: leafs) // return whole list
+      else insertLeaf(to_insert, leafs.tail, (leafs.head :: acc.reverse).reverse)  //add to accumulator
+    }
+
   /**
    * Checks whether the list `trees` contains only one single code tree.
    */
